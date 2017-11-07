@@ -6,6 +6,9 @@ import java.util.ArrayList;
  * Created by DD on 2017-11-04.
  */
 public class arrayListexample {
+    //ArrayList, LInkedlist,vector, implementing list inferface can accept duplicate value
+    //array have fixed size where as arraylist can grow dinamic
+    //you c
 
 
     public static void main(String[] args) {
@@ -21,6 +24,7 @@ public class arrayListexample {
         System.out.println(check);
         System.out.println("Index lalala to " + a.indexOf("lalala"));
         System.out.println("Is the index empty? " + a.isEmpty());
+        System.out.println("Size of Arralist  " + a.size());
 
 
     }
