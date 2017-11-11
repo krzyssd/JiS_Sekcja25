@@ -34,6 +34,9 @@ public class ArraysDemo {
         for (int x : c){
 
             System.out.println(x);
+
+
+
         }
 
 
