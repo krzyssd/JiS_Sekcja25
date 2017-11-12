@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d2006e0-f6b7-4389-9d08-1e25bdd55c1b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/coreJava/example.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/coreJava/hashMapexample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JiS_Sekcja25/coreJava/ArraysDemo.class" afterPath="$PROJECT_DIR$/out/production/JiS_Sekcja25/coreJava/ArraysDemo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/coreJava/Chaining.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/coreJava/chaining2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/coreJava/ArraysDemo.java" afterPath="$PROJECT_DIR$/src/coreJava/ArraysDemo.java" />
     </list>
     <ignored path="JiS_Sekcja25.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +35,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DateDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DateDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/coreJava/DateDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
+            <state relative-caret-position="7">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chaining.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/coreJava/Chaining.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+              <folding>
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chaining2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/coreJava/chaining2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -72,11 +93,13 @@
         <option value="$PROJECT_DIR$/src/coreJava/ArraysDemo.java" />
         <option value="$PROJECT_DIR$/src/coreJava/hashMapexample.java" />
         <option value="$PROJECT_DIR$/src/coreJava/example.java" />
+        <option value="$PROJECT_DIR$/src/coreJava/Chaining.java" />
+        <option value="$PROJECT_DIR$/src/coreJava/chaining2.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -206,7 +229,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.example">
+  <component name="RunManager" selected="Application.Chaining">
     <configuration default="false" name="arrayListexample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -275,6 +298,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="coreJava.example" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="JiS_Sekcja25" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Chaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="coreJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="coreJava.Chaining" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -531,18 +574,20 @@
       <listeners />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.arrayListexample" />
       <item index="1" class="java.lang.String" itemvalue="Application.hashSetexample" />
       <item index="2" class="java.lang.String" itemvalue="Application.hashMapexample" />
       <item index="3" class="java.lang.String" itemvalue="Application.example" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Chaining" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.example" />
-        <item index="1" class="java.lang.String" itemvalue="Application.hashMapexample" />
-        <item index="2" class="java.lang.String" itemvalue="Application.hashSetexample" />
-        <item index="3" class="java.lang.String" itemvalue="Application.arrayListexample" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Chaining" />
+        <item index="1" class="java.lang.String" itemvalue="Application.example" />
+        <item index="2" class="java.lang.String" itemvalue="Application.hashMapexample" />
+        <item index="3" class="java.lang.String" itemvalue="Application.hashSetexample" />
+        <item index="4" class="java.lang.String" itemvalue="Application.arrayListexample" />
       </list>
     </recent_temporary>
   </component>
@@ -560,7 +605,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -601,7 +646,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -692,8 +739,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/coreJava/DateDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
+        <state relative-caret-position="7">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/coreJava/Chaining.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/coreJava/chaining2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
           <folding />
         </state>
       </provider>
